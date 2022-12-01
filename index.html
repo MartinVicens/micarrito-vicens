@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Programación I | Parcial 2 | VICENS, MARTIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <script defer src="parcial.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <h1>Programación I | Parcial 2 | VICENS, MARTIN | Mi carrito</h1>
+    </header>
+
+    <main>
+
+        <div id="minicarrito">
+            <p><span><button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button></span> Productos agregados al carrito</p>
+            <p>Filtrar por <a href="#">Heladeras</a> | <a href="#">Lavarropas</a> | <a href="#">Telvisores</a></p>
+        </div>
+
+        <h2>Nuestros Productos</h2>
+    
+        <div id="contenedor-productos">
+
+        </div>
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+<footer>
+    <ul>
+        <li>Profesor Fabrizio Carlassara</li>
+        <li>Programación 1</li>
+    </ul>
+</footer>
+</body>
+</html>
